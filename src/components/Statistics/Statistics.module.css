@@ -1,0 +1,27 @@
+.title {
+  text-align: center;
+  font-family: 'Arial';
+  font-size: 24px;
+}
+
+p {
+  margin: 0;
+  padding-left: 40px;
+  font-size: 24px;
+}
+span {
+  font-size: 26px;
+  font-weight: 800;
+}
+
+.positive {
+  color: #07d800;
+}
+
+.neutral {
+  color: #ffe600;
+}
+
+.negative {
+  color: #ff0000
+}

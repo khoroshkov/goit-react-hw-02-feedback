@@ -1,0 +1,17 @@
+.sectionWrapper {
+  display: flex;
+  flex-direction: column;
+  min-width: 320px;
+  max-width: 620px;
+  margin: 0 auto;
+  padding-bottom: 50px;
+  border: 1px solid #c0c0c0;
+  border-radius: 3px;
+  box-shadow: 4px 4px 11px -1px rgba(196, 196, 196, 1);
+}
+
+.title {
+  text-align: center;
+  font-family: 'Arial';
+  font-size: 24px;
+}
