@@ -5,21 +5,23 @@ import styles from "./Statistics.module.css";
 const Statistics = ({ good, neutral, bad, total, positivePercentage }) => (
   <div className={styles.feedbackFormWrapper}>
     <h4 className={styles.title}>Statistics</h4>
-    <p>
-      Good: <span className={styles.positive}>{good}</span>
-    </p>
-    <p>
-      Neutral: <span className={styles.neutral}>{neutral}</span>
-    </p>
-    <p>
-      Bad: <span className={styles.negative}>{bad}</span>
-    </p>
-    <p>
-      Total feedbacks: <span>{total}</span>
-    </p>
-    <p>
-      Positive feedbacks: <span>{positivePercentage}%</span>
-    </p>
+    <ul className={styles.itemLists}>
+      <li>
+        Good: <span className={styles.positive}>{good}</span>
+      </li>
+      <li>
+        Neutral: <span className={styles.neutral}>{neutral}</span>
+      </li>
+      <li>
+        Bad: <span className={styles.negative}>{bad}</span>
+      </li>
+      <li>
+        Total feedbacks: <span>{total}</span>
+      </li>
+      <li>
+        Positive feedbacks: <span>{positivePercentage}%</span>
+      </li>
+    </ul>
   </div>
 );
 

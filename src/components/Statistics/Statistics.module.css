@@ -1,14 +1,19 @@
 .title {
   text-align: center;
-  font-family: 'Arial';
+  font-family: "Arial";
   font-size: 24px;
 }
 
-p {
+.itemLists {
+  list-style: none;
+}
+
+li {
   margin: 0;
   padding-left: 40px;
   font-size: 24px;
 }
+
 span {
   font-size: 26px;
   font-weight: 800;
@@ -23,5 +28,5 @@ span {
 }
 
 .negative {
-  color: #ff0000
+  color: #ff0000;
 }
